@@ -1,4 +1,9 @@
-.ms_debug-box{
+.ms_debug-box-small{
+    height: 50px;
+    border: 1px dashed rgb(0, 0, 0);
+}
+
+.ms_debug-box-big{
     height: 200px;
     border: 1px dashed rgb(0, 0, 0);
 }
@@ -9,4 +14,8 @@
 
 .ms_bg-green{
     background-color: rgb(0, 255, 64);
+}
+
+.ms_bg-blue{
+    background-color: rgb(43, 119, 242);
 }
