@@ -1,4 +1,8 @@
 .ms_debug-box{
     height: 200px;
-    border: 1px dashed red;
+    border: 1px dashed rgb(0, 0, 0);
+}
+
+.ms_bg-red{
+    background-color: red;
 }
