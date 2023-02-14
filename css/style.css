@@ -60,3 +60,7 @@
 .ms_bg-color-tertiary-light{
     background-color: var(--ms_tertiary-color-light);
 }
+.ms_small-square{
+    width: 40px;
+    height: 40px;
+}
