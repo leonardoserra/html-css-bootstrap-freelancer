@@ -30,3 +30,12 @@
 .ms_bg-grey{
     background-color: rgb(193, 193, 193);
 }
+
+/*creo palette colori*/
+
+:root{
+    --ms_primary-color: #ffffff;
+    --ms_secondary-color: #1abc9c;
+    --ms_tertiary-color: #2c3e50;
+    --ms_tertiary-color-light: #3a546d;
+}
