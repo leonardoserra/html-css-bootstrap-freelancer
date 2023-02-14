@@ -42,6 +42,9 @@
 .ms_text-color-primary{
     color: var(--ms_primary-color);
 }
+.ms_text-color-tertiary{
+    color: var(--ms_tertiary-color);
+}
 .ms_bg-color-primary{
     background-color: var(--ms_primary-color);
 }
