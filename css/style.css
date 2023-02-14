@@ -39,7 +39,9 @@
     --ms_tertiary-color: #2c3e50;
     --ms_tertiary-color-light: #3a546d;
 }
-
+.ms_text-color-primary{
+    color: var(--ms_primary-color);
+}
 .ms_bg-color-primary{
     background-color: var(--ms_primary-color);
 }
