@@ -60,14 +60,20 @@
 .ms_bg-color-tertiary-light{
     background-color: var(--ms_tertiary-color-light);
 }
-.ms_small-square{
+
+.ms_social i{
+    display: inline-block;
     width: 40px;
     height: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    line-height: 40px;
 }
 
 .ms_star i{
     vertical-align: middle;
 }
+
 .ms_star::before{
     content:'';
     display: inline-block;
