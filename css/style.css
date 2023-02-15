@@ -65,3 +65,34 @@
     height: 40px;
 }
 
+.ms_star i{
+    vertical-align: middle;
+}
+.ms_star::before{
+    content:'';
+    display: inline-block;
+    height: 3px;
+    width: 100px;
+    margin-right: 3px;
+    background-color: var(--ms_primary-color);
+    border-radius: 3px;
+    vertical-align: middle;
+} 
+
+.ms_star::after{
+    content:'';
+    display: inline-block;
+    height: 3px;
+    width: 100px;
+    margin-left: 3px;
+    background-color: var(--ms_primary-color);
+    border-radius: 3px;
+    vertical-align: middle;
+} 
+
+#portfolio .ms_star::after,
+#portfolio .ms_star::before,
+#contact .ms_star::after,
+#contact .ms_star::before {
+    background-color: var(--ms_tertiary-color);
+}
