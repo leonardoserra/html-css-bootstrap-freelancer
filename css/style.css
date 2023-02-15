@@ -96,3 +96,8 @@
 #contact .ms_star::before {
     background-color: var(--ms_tertiary-color);
 }
+
+#ms_hover-text-green a:hover{
+    color: var(--ms_secondary-color)
+
+}
